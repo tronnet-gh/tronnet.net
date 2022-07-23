@@ -1,0 +1,26 @@
+.std-text {
+	font-family: monospace;
+	color: white;
+	margin: 20px 0px 20px 0px;
+}
+.btn-group button {
+	background-color: #00ff00;
+	border: 1px solid #00ff00;
+	color: black;
+	padding: 10px 24px;
+	margin: 0px 20px 0px 20px;
+	cursor: pointer;
+	float: left;
+}
+.btn-group button:not(:last-child) {
+	border-right: none;
+}
+.btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.btn-group button:hover {
+	background-color: #00AA00;
+	border: #00AA00;
+}
