@@ -3,6 +3,12 @@
 	color: white;
 	margin: 20px 0px 20px 0px;
 }
+.btn-group {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 .btn-group button {
 	background-color: #00ff00;
 	border: 1px solid #00ff00;
