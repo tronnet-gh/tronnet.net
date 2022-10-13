@@ -4,33 +4,27 @@
 	margin: 20px 0px 20px 0px;
 }
 .btn-group {
-	margin: auto;
+	margin: 0 auto;
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 }
 .btn-group button {
-	background-color: #00ff00;
-	border: 1px solid #00ff00;
-	color: black;
-	padding: 10px 24px;
-	margin: 0px 20px 0px 20px;
-	cursor: pointer;
-	float: left;
+  background-color: #00ff00; /* Green background */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
 }
 .btn-group button:not(:last-child) {
-	border-right: none;
+  border-right: none; /* Prevent double borders */
 }
 .btn-group:after {
-	content: "";
-	clear: both;
-	display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 .btn-group button:hover {
-	background-color: #00AA00;
-	border: #00AA00;
+  background-color: #008800;
 }
-
 .center-div {
 	margin-left: auto;
 	margin-right: auto;
