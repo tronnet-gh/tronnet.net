@@ -11,7 +11,8 @@
 .btn-group button {
   background-color: #00ff00; /* Green background */
   color: black; /* White text */
-  padding: 10px 24px; /* Some padding */
+  padding: 10px; /* Some padding */
+  margin: 0px 5px 0px 5px;
   cursor: pointer; /* Pointer/hand icon */
 }
 .btn-group button:not(:last-child) {
