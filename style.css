@@ -1,3 +1,7 @@
+body {
+	background-color:black;
+}
+
 .std-text {
 	font-family: monospace;
 	color: white;
@@ -42,10 +46,7 @@ p {
 	padding: 10px; /* Some padding */
 	margin: 0px 5px 0px 5px;
 	cursor: pointer; /* Pointer/hand icon */
-}
-
-.btn-group button:not(:last-child) {
-	border-right: none; /* Prevent double borders */
+	border: none;
 }
 
 .btn-group:after {
