@@ -27,6 +27,10 @@ p {
 	text-align: left;
 }
 
+footer p {
+	text-align: center;
+}
+
 @media screen and (min-width: 480px) {
 .center-div {
 	min-width: 480px;
