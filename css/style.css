@@ -60,12 +60,13 @@ footer p {
 	gap: 10px;
 }
 
-.btn-group button {
+.btn-group a {
 	background-color: #00ff00; /* Green background */
 	color: black; /* White text */
 	padding: 10px; /* Some padding */
 	cursor: pointer; /* Pointer/hand icon */
 	border: none;
+	text-decoration: none;
 }
 
 .btn-group button:hover {
